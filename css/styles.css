@@ -1,17 +1,13 @@
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
-} */
-
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    margin: 0;
     font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+    color: #007bff;
 }
 
 nav {
@@ -48,15 +44,32 @@ nav .inactivo {
     color: #fff;
 }
 
+form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5%;
+    border: 5px solid #007bff;
+}
+
+.bcontainer, .contenedor{
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+
+}
+
 form .boton {
+    display: flex;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #007bff;
     border-radius: 25px;
     color: #fff;
     cursor: pointer;
     font-size: 20px;
     margin: 0 10px;
     padding: 10px 25px;
+
 }
 
 form .activo {
@@ -97,13 +110,13 @@ ul li strong {
 
 p {
     text-align: justify;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.6;
     max-width: 100%;
     color: #333;
     /* margin: 20px auto; */
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #f1dede;
     border-left: 4px solid #007bff;
     border-radius: 5px;
 }
@@ -131,10 +144,8 @@ p {
 }
 
 .categoria {
-    width: 300px;
-    height: 600px;
-    padding: 20px;
-    background-color: #ecf0f1;
+    padding: 10px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;

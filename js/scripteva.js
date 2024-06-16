@@ -29,7 +29,8 @@ botonEnviar.addEventListener("click", () => {
         q2: 'false',
         q3: 'false',
         q4: 'true',
-        q5: 'true'
+        q5: 'true',
+        q6: 'true'
     };
 
     let resultado = 0;
