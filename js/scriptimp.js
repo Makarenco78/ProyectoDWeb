@@ -25,8 +25,6 @@ botonEva.addEventListener("click", () => {
 });
 
 
-
-
 thumbnails.forEach(thumbnail => {
     thumbnail.addEventListener('click', () => {
         fullImage.src = thumbnail.src;
