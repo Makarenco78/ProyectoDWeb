@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Evaluación</title>
+</head>
+
+<body>
+        <nav>
+            <button id="inicio" class="inactivo boton">Inicio</button>
+            <button id="aplicaciones" class="inactivo boton">Aplicaciones</button>
+            <button id="impacto" class="inactivo boton">Impacto</button>
+            <button id="evaluación" class="activo boton">Evaluación</button>
+        </nav>
+
+        <h1>Formulario de Evaluación</h1>
+        <form>
+            <div class="pregunta">
+                <p>1. La capital de Francia es París.</p>
+                <label><input type="radio" name="q1" value="true"> Verdadero</label>
+                <label><input type="radio" name="q1" value="false"> Falso</label>
+            </div>
+            <div class="pregunta">
+                <p>2. El agua hierve a 90 grados Celsius.</p>
+                <label><input type="radio" name="q2" value="true"> Verdadero</label>
+                <label><input type="radio" name="q2" value="false"> Falso</label>
+            </div>
+            <div class="pregunta">
+                <p>3. La tierra es plana.</p>
+                <label><input type="radio" name="q3" value="true"> Verdadero</label>
+                <label><input type="radio" name="q3" value="false"> Falso</label>
+            </div>
+            <div class="pregunta">
+                <p>4. El sol sale por el este.</p>
+                <label><input type="radio" name="q4" value="true"> Verdadero</label>
+                <label><input type="radio" name="q4" value="false"> Falso</label>
+            </div>
+            <div class="pregunta">
+                <p>5. Un año tiene 365 días.</p>
+                <label><input type="radio" name="q5" value="true"> Verdadero</label>
+                <label><input type="radio" name="q5" value="false"> Falso</label>
+            </div>
+            <button type="button" id="botonEnviar" class="activo boton">Enviar</button>
+        </form>
+        
+        <p id="resultado"></p>
+
+
+
+
+            <script src="js/scripteva.js"></script>
+</body>
+
+</html>
